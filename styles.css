@@ -1,0 +1,283 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Prompt", sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #10151a;
+  overflow-x: hidden;
+ 
+}
+
+header {
+  width: 100%;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  background-color: #10151a;
+  color: #fff;
+}
+
+.header-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header-container h1 {
+  font-size: 4rem;
+  color: rgb(144, 74, 156);
+  font-weight: 700;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.header-container h1:hover {
+  letter-spacing: 2px;
+}
+
+.header-container h4 {
+  font-size: 1.5rem;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.icons a {
+  margin: 0 10px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 3rem;
+  margin-bottom: 50px;
+  transition: color 0.2s ease;
+}
+
+.icons a:hover {
+  color: #fff;
+}
+
+.icons a:hover i.bxl-github {
+  color: #333;
+}
+
+.icons a:hover i.bxl-linkedin-square {
+  color: #0072b1;
+}
+
+.icons a:hover i.bxl-gmail {
+  color: #dd4b39;
+}
+
+.more-about-me {
+  margin-top: 20px;
+  color: #666;
+}
+
+.more-about-me a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #666;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.more-about-me a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #cedae8;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+#about h2 {
+  margin-top: 30px;
+  font-size: 3rem;
+  color: #10151a;
+  width: 800px;
+}
+
+#about .about-text {
+  width: 400px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+#about .profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-bottom: 30px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #cedae8;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 900px; 
+  overflow-y: auto; 
+ 
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 800px;
+  max-width: calc(100% - 40px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.project-box h3 {
+  color: rgb(33, 33, 35);
+  font-size: 2=1rem;
+  letter-spacing: 2px;
+}
+
+.project-screenshot-container {
+  flex: 1;
+  position: relative;
+  width: 300px;
+}
+
+.project-screenshot {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-link-btn {
+  color: #f00;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.project-link-btn:hover {
+  letter-spacing: 3px;
+}
+
+.tech-stack-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tech-stack-icons i {
+  font-size: 2rem;
+}
+
+.scroll-message {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #666;
+}
+
+#contact {
+  padding: 20px;
+  background-color: #cedae8;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 520px;
+}
+
+#contact button {
+  width: 90px;
+  height: 30px;
+  background-color: #10151a;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+}
+
+#contact button:hover {
+  background-color: #ccc;
+  color: #10151a;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #cedae8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#daisy {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  pointer-events: none;
+  transition: transform 1s ease-in;
+  opacity: 10000;
+}
+
+.hidden {
+  visibility: hidden;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.header-container * {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.arrows{
+  font-size: 4rem;
+}
